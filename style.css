@@ -538,6 +538,10 @@ label {
 
 /* MOBILE */
 @media only screen and (max-width: 480px) {
+    #my-image {
+        display: none;
+    }
+
     #nav_links {
         margin-right: 20px;
     }
@@ -569,6 +573,7 @@ label {
         box-shadow: turquoise 5px 5px;
         height: 100%;
     }
+
 
     /*ABOUT*/
     #about-container {
